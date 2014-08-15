@@ -1,0 +1,9 @@
+#!/usr/bin/php
+<?php
+
+require_once dirname(__FILE__) . '/AnagramCLI.php';
+
+$config = json_decode(file_get_contents(dirname(__FILE__) . '/config.json'), true);
+$cli = new AnagramCLI(dirname(__FILE__) . '/' . $config['dictionary']);
+$cli->execute($argv);
+

@@ -22,7 +22,6 @@ cd AnagramSolver
 
 ```sh
   ./anagram <command or alias> [argument ...]
-```
 
 ----------------------------------------------------------------------------------------------------
 | Command    | Alias  | Arguments    | Description                                                 |
@@ -40,6 +39,7 @@ cd AnagramSolver
 | help       | -h, -? |              | Display this help screen.                                   |
 | examples   | -x     |              | Display a list of examples of how to use this program.      |
 ----------------------------------------------------------------------------------------------------
+```
 
 ## Examples
 

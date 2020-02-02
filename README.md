@@ -1,3 +1,5 @@
+**Note:** Not maintained
+
 # AnagramSolver
 
 AnagramSolver is a command line program that solves word puzzles including anagrams.
